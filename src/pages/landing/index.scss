@@ -1,0 +1,272 @@
+.landing{
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    color: #fff;
+    header{
+        background-color: #000;
+        display: flex;
+        padding: 4vh 4vw;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 20vh;
+
+        img{
+            width: 5vw;
+        }
+
+        .links{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 0vh 5vw;
+
+            a{
+                color: #fff;
+                text-decoration: none;
+                font: 500 1.3rem 'valhalla';
+            }
+
+        }
+    }
+
+    .secao-inicial{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 80vh; 
+        justify-content: space-between;
+        padding: 0vh 10vw;
+        .text{
+            display: flex;
+            flex-direction: column;
+            width: 35vw;
+            gap: 2vh 0vw;
+            justify-content: center;
+            h3{
+                font: 500 1rem 'valhalla';
+            }
+            h1{
+                font: 700 2.5rem 'valhalla';
+            }
+        }
+        p{
+            font: 500 1.3rem 'valhalla';
+            width: 29vw;
+        }
+    }
+
+    .secao-dois{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 110vh;
+
+        .back{
+            background-image: url('../../../public/assets/images/exporar.png') ;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            img{
+                width: 70vw;
+                padding: 10vh 7vw;
+            }
+        }
+        h1{
+            font: 500 2rem 'valhalla';
+            margin-right: 63vw;
+            padding: 2vh 0vw;
+        }
+        
+
+        .line {
+            background-color: #fff;
+            width: 90vw;
+            height: 0.3vh;
+            margin-bottom: 5vh;
+        }
+
+    }
+    .secao-tres{
+        background-color: #000;
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        padding: 5vh 5vw;
+        align-items: center;
+        justify-content: space-between;
+
+        h1{
+            font: 700 3rem 'valhalla';
+            width: 20vw;
+        }
+
+        .quadrados{
+            display: flex;
+            flex-direction: column;
+            gap: 5vh 0vw;
+            .lado{
+                display: flex;
+                flex-direction: row;
+                gap: 0vh 3vw;
+                .cubo{
+                    background-image: url('../../../public/assets/images/cubo.png');
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    padding: 0vh 5vw;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    height: 40vh;
+
+                    p{
+                        color: #000;
+                        font: 700 1.4rem 'valhalla';
+                        width: 12vw;
+                    }
+                }
+            }
+
+        }
+    }
+    .secao-4, .secao-5, .secao-6{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        gap: 3vh 0vw;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            font: 700 3rem 'valhalla';
+        }
+        p{
+            font: 500 2rem 'valhalla';
+            text-align: center;
+            width: 50vw;
+        }
+
+    }
+    .secao-4{
+        background-image: url('../../../public/assets/images/background-1.png');
+        
+    }
+    .secao-5{
+        background-image: url('../../../public/assets/images/background-2.png');
+        h1{
+            color: #000;
+        }
+        p{
+            color: #000;
+        }
+    }
+    .secao-6{
+        background-image: url('../../../public/assets/images/background-3.png');
+    }
+    .secao-7{
+        background-image: url('../../../public/assets/images/background-5.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4vh 0vw;
+        h1{
+            color: #000;
+            font: 500 3rem 'valhalla';
+            text-align: center;
+            width: 70vw;
+        }
+        button{
+            border-radius: 30px;
+            background-color: #000;
+            color: #fff;
+            font: 500 1.5rem 'valhalla';
+            border: none;
+            padding: 2vh 2vw;
+            width: 20vw;
+            height: 7vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .secao-8{
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5vh 5vw;
+
+        h1{
+            font: 700 3rem 'valhalla';
+            padding: 4vh 0vw;
+            margin-left: 5vw;      
+        }
+
+    }
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        background-color: #000;
+        align-items: center;
+        height: 70vh;
+        justify-content: space-evenly;
+
+        .coluna{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 4vh 0vw;
+            p{
+                font: 500 1.5rem 'valhalla';
+                width: 30vw;        
+                text-align: center;
+            }
+        }
+        .coluna-2{
+            display: flex;
+            flex-direction: column;
+            gap: 2vh 0vw;
+            h1{
+                font: 700 2rem 'valhalla';
+            }
+            div{
+                display: flex;
+                align-items: center;
+                gap: 0vh 2vw;
+
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    font: 500 1.5rem 'valhalla';
+                }
+                img{
+                    width: 2vw;
+                }
+            }
+        }
+        .coluna-3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2vh 0vw;
+
+            h1{
+                font: 700 2rem 'valhalla';
+            }
+         
+
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    font: 500 1.5rem 'valhalla';
+                }
+            
+        }
+    }
+}

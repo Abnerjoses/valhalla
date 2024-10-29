@@ -305,19 +305,18 @@
         }
     }
     .secao-tres{
-        height: 100vh;
+        height: 110vh;
         h1{
             font-size: 2.5rem;
         }
         .quadrados{
-            gap: 3vh 0vw;
             .lado{
                 .cubo{
-                    height: 38vh;
+                    height: 42vh;
                     p{
                         font-size: 1.3rem;
-                        width: 14vw;
                     }
+                    
                 }
             }
         }
@@ -694,6 +693,7 @@
             p{
                 font-size: 0.5rem;
             }
+           
         }
     }
 }

@@ -32,7 +32,7 @@ export default function LandingPage() {
         <h1>Vikings</h1>
       </div>
       
-      <div className='secao-tres'>
+      <div id='secao3' className='secao-tres'>
         <h1>Encontre inspiração, adquira novas habilidades e descubra tendências</h1>
 
         <div className='quadrados'>
@@ -87,7 +87,7 @@ export default function LandingPage() {
       <div className='rodape'>
 
           <div className='coluna'>
-            <img src="/assets/images/logo-valhalla-2.png" alt="" />
+            <img src="/assets/images/logo-valhalla-2.png" alt="logo" />
             <p>O criador de sites Valhalla pode impulsionar a sua presença online, utilizando das melhores habilidades do ramo da tecnlogia e marketing</p>
           </div>
           <div className='coluna-2'>

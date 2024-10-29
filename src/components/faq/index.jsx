@@ -4,7 +4,6 @@ import "./index.scss"; // Vamos usar um arquivo CSS externo para o estilo
 function FAQItem({ question, answer }) {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Função para alternar o estado aberto/fechado
   const toggleFAQ = () => {
     setIsOpen(!isOpen);
   };

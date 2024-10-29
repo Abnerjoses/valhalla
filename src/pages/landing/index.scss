@@ -78,7 +78,6 @@
             padding: 2vh 0vw;
         }
         
-
         .line {
             background-color: #fff;
             width: 90vw;
@@ -239,7 +238,6 @@
                 display: flex;
                 align-items: center;
                 gap: 0vh 2vw;
-
                 a{
                     color: #fff;
                     text-decoration: none;
@@ -259,14 +257,443 @@
             h1{
                 font: 700 2rem 'valhalla';
             }
-         
-
                 a{
                     color: #fff;
                     text-decoration: none;
                     font: 500 1.5rem 'valhalla';
                 }
-            
+        }
+    }
+}
+@media (max-width:1440px) {
+    .landing{
+    .secao-dois{
+        height: 120vh;
+        .back{
+            img{
+                padding: 8vh 4vw;
+            }
+        }
+    }
+    .secao-tres{
+        height: 120vh;
+        .quadrados{
+            .lado{
+                .cubo{
+                    height: 45vh;
+                    p{
+                        font-size: 1.3rem;
+                  
+                    }
+                }
+            }
+        }
+    }
+    .secao-4, .secao-5,.secao-6, .secao-7{
+        height: 110vh;
+    }
+    }
+ }
+@media (max-width:1280px) {
+   .landing{
+    .secao-dois{
+        height: 106vh;
+        .back{
+            img{
+                padding: 6vh 4vw;
+            }
+        }
+    }
+    .secao-tres{
+        height: 110vh;
+        h1{
+            font-size: 2.5rem;
+        }
+        .quadrados{
+            .lado{
+                .cubo{
+                    height: 42vh;
+                    p{
+                        font-size: 1.3rem;
+                    }
+                    
+                }
+            }
+        }
+    }
+    .secao-4, .secao-5,.secao-6, .secao-7{
+        height: 75vh;
+    }
+    .secao-4{
+        background-image: url('../../../public/assets/images/secao-1-1280.png');
+    }
+    .secao-5{
+        background-image: url('../../../public/assets/images/secao-2-1280.png');
+    }
+    .secao-6{
+        background-image: url('../../../public/assets/images/secao-3-1280.png');
+    }
+
+   }
+}
+@media (max-width:912px) {
+    .landing{
+        header{
+            height: 15vh;
+
+            .links{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+        .secao-inicial{
+            height: 75vh; 
+            padding: 0vh 8vw;
+            .text{
+                width: 35vw;
+                gap: 2vh 0vw;
+                h3{
+                    font-size: 0.8rem;
+                }
+                h1{
+                    font-size: 2rem;
+                }
+            }
+            p{
+                font-size: 1.1rem;
+                width: 25vw;
+            }
+        }
+        .secao-dois{
+            height: 90vh;
+        }
+        .secao-tres{
+            height: 90vh;
+            h1{
+                font-size: 2.1rem;
+            }
+            .quadrados{
+                gap: 2.5vh 0vw;
+                .lado{
+                    .cubo{
+                        height: 35vh;
+                        p{
+                            font-size: 1rem;
+                            width: 13vw;
+                        }
+                    }
+                }
+            }    
+        }
+        .secao-4, .secao-5,.secao-6, .secao-7{
+            height: 70vh;
+            h1{
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: 1.5rem;
+            }
+        }
+        .rodape{
+            .coluna{
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+@media(max-width:768px){
+    .landing{
+        .secao-inicial{
+            height: 70vh; 
+            .text{
+                width: 35vw;
+                gap: 1.8vh 0vw;
+                h3{
+                    font-size: 0.7rem;
+                }
+                h1{
+                    font-size: 1.5rem;
+                }
+            }
+            p{
+                font-size: 0.8rem;
+                width: 20vw;
+            }
+        }
+        .secao-dois{
+            height: 72vh;
+            .back{
+                img{
+                    padding: 4vh 4vw;
+                }
+            }
+        }
+        .secao-tres{
+            height: 75vh;
+            h1{
+                font-size: 1.5rem;
+            }
+            .quadrados{
+                gap: 2vh 0vw;
+                .lado{
+                    .cubo{
+                        height: 30vh;
+                        p{
+                            font-size: 0.8rem;
+                            width: 15vw;
+                        }
+                    }
+                }
+            }    
+        }
+        .secao-4, .secao-5,.secao-6, .secao-7{
+            height: 65vh;
+            h1{
+                font-size: 2.2rem;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+        }
+        .rodape{
+            .coluna{
+                p{
+                    font-size: 1rem;
+                }
+            }
+            .coluna-2, .coluna-3{
+                h1{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+@media(max-width:660px){
+    .landing{
+         .secao-4, .secao-5,.secao-6, .secao-7{
+            height: 55vh;
+        }
+        .secao-tres{
+            h1{
+                font-size: 1.5rem;
+            }
+            .quadrados{
+                .lado{
+                    .cubo{
+                        height: 28vh;
+                        p{
+                            font-size: 0.7rem;
+                        }
+                    }
+                }
+            }    
+        }
+    }
+}
+@media (max-width:540px) {
+    .landing{
+        .secao-inicial{
+            height: 50vh; 
+            .text{
+                gap: 1.5vh 0vw;
+                h3{
+                    font-size: 0.6rem;
+                }
+                h1{
+                    font-size: 1.2rem;
+                }
+            }
+            p{
+                font-size: 0.6rem;
+                width: 25vw;
+            }
+        }
+        .secao-dois{
+            height: 60vh;
+            .back{
+                img{
+                    padding: 3vh 3vw;
+                }
+            }
+        }
+        .secao-tres{
+            h1{
+                font-size: 1.2rem;
+            }
+            .quadrados{
+             
+                .lado{
+                    
+                    .cubo{
+                        height: 22vh;
+                        p{
+                            font-size: 0.7rem;
+                        }
+                    }
+                }
+            }    
+        }
+        .secao-4, .secao-5,.secao-6, .secao-7{
+            height: 45vh;
+            h1{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 0.8rem;
+            }
+            button{
+                font-size: 1rem;
+            }
+        }
+    
+    }
+}
+
+@media (max-width:430px) {
+    .landing{
+        header{
+            height: 10vh;
+            .links{
+                a{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+        .secao-inicial{
+            height: 35vh; 
+            .text{
+                gap: 1.5vh 0vw;
+                h3{
+                    font-size: 0.6rem;
+                }
+                h1{
+                    font-size: 1.2rem;
+                }
+            }
+            p{
+                font-size: 0.6rem;
+                width: 25vw;
+            }
+        }
+        .secao-dois{
+            height: 50vh;
+            .back{
+                img{
+                    padding: 2vh 2vw;
+                }
+            }
+            h1{
+                font-size: 1rem;
+            }
+        }
+        .secao-tres{
+            height: 50vh;
+            h1{
+                font-size: 1rem;
+            }
+            .quadrados{
+                .lado{
+                    .cubo{
+                        height: 20vh;
+                        p{
+                            font-size: 0.7rem;
+                        }
+                    }
+                }
+            }    
+        }
+        .secao-4, .secao-5,.secao-6, .secao-7{
+            height: 35vh;
+            h1{
+                font-size: 1.2rem;
+            } 
+        }
+        .rodape{
+            .coluna{
+                height: 30vh;
+                img{
+                    width: 15vw;
+                }
+                p{
+                    font-size: 0.7rem;
+                }
+            }
+            .coluna-2, .coluna-3{
+                h1{
+                    font-size: 0.8rem;
+                }
+                div{
+                    a{
+                        font-size:  0.7rem;
+                     }
+                }
+                a{
+                   font-size:  0.7rem;
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width:375px) {
+    .landing{
+        .secao-inicial{
+            height: 30vh; 
+            .text{
+                gap: 1vh 0vw;
+                h3{
+                    font-size: 0.4rem;
+                }
+                h1{
+                    font-size: 1rem;
+                }
+            }
+            p{
+                font-size: 0.5rem;
+                width: 25vw;
+            }
+        }
+        .secao-dois{
+            height: 40vh;
+            .back{
+                img{
+                    padding: 1vh 1vw;
+                }
+            }
+            h1{
+                font-size: 0.8rem;
+            }
+        }
+        .secao-tres{
+            height: 40vh;
+            h1{
+                font-size: 0.8rem;
+            }
+            .quadrados{
+                .lado{
+                    .cubo{
+                        height: 15vh;
+                        p{
+                            font-size: 0.5rem;
+                        }
+                    }
+                }
+            }    
+        }
+        .secao-4, .secao-5,.secao-6, .secao-7{
+            height: 25vh;
+            h1{
+                font-size: 0.8rem;
+            } 
+            p{
+                font-size: 0.5rem;
+            }
+           
         }
     }
 }

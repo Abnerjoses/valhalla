@@ -25,7 +25,7 @@ function FAQItem({ question, answer }) {
   );
 }
 
-function FAQList() {
+export default function FAQList() {
   const faqs = [
     { question: "Como posso dar um visual mais profissional ao meu site?", answer: "Ao desenvolver ums site é importante se atentar nas suas referencias e objetivos, para entao ecoçher umtemplate que mellhor atende as suas expectativas de design," },
     { question: "Como posso encontrar um designer profissional para me ajudar a criar meu site?", answer: "Um site com um bom design é fundamental para seu sucesso online, pois estabelece sua credibilidade e passa uma imagem mais profissional. É por isso que é tão importante reservar um tempo para encontrar bons exemplos e aprender com eles. Certamente vai encontrar alguns que atendem seus objetivos ou necessidades comerciais." },
@@ -42,4 +42,3 @@ function FAQList() {
   );
 }
 
-export default FAQList;

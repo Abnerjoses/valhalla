@@ -8,9 +8,9 @@ export default function LandingPage() {
       <header>
         <img src="/assets/images/logo-valhalla-2.png" alt="logo" />
         <div className='links'>
-          <Link>Criação</Link>
-          <Link>Recursos</Link>
-          <Link>Preços</Link>
+          <a href='#criacao'>Criação</a>
+          <a href='#recursos'>Recursos</a>
+          <a href='#preco'>Preços</a>
         </div>
 
       </header>
@@ -58,19 +58,19 @@ export default function LandingPage() {
 
       </div>
 
-      <div className='secao-4'>
+      <div className='secao-4' id='criacao'>
           <h1>Criação</h1>
           <p>Para a criação de sites nós da Valhalla,utilizamos
           dos melhores programadores e entededores de desenvolmento, e desing. Pensamos em cada traço para melhor representar seu pensamento em nosso site</p>
       </div>
 
-      <div className='secao-5'>
+      <div className='secao-5' id='recursos'>
         <h1>Recursos</h1>
         <p>Aqui temos os melhores recursos disponiveis no
         mercado da tecnologia e desenvolvimento de sites, cada ferramenta é adepta para melhor extraira essencia visual e funconal de cada cliente.</p>
       </div>
 
-      <div className='secao-6'>
+      <div className='secao-6' id='preco'>
         <h1>Preços</h1>
         <p>Faça o seu orçamento conosco, entre em contato com nossas redes socias e e-mail, para conseguirmos te atender da melhor forma possivel, com preços justos e que cabem no seu bolso.</p>
       </div>

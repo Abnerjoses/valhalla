@@ -27,7 +27,7 @@ export default function LandingPage() {
         <div className='line'/>
 
         <div className='back'>  
-          <Link><img src="/assets/images/vikings-image.png" alt="vikings" /></Link>
+          <Link><img src="/assets/images/back.png" alt="vikings" /></Link>
         </div>
         <h1>Vikings</h1>
       </div>
@@ -98,10 +98,6 @@ export default function LandingPage() {
             <div>
               <img src="/assets/images/face.png" alt="face" /><Link>Facebook</Link>
             </div>
-          </div>
-          <div className='coluna-3'>
-            <h1>Parceiros</h1> 
-            <Link>Criaativo</Link>
           </div>
         </div>
       

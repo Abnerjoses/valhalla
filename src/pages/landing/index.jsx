@@ -27,7 +27,7 @@ export default function LandingPage() {
         <div className='line'/>
 
         <div className='back'>  
-          <Link><img src="/assets/images/back.png" alt="vikings" /></Link>
+          <Link to={'http://4.172.207.208:3042'}><img src="/assets/images/back.png" alt="vikings" /></Link>
         </div>
         <h1>Vikings</h1>
       </div>

@@ -1,9 +1,10 @@
-.landing{
+.landing {
     display: flex;
     flex-direction: column;
     background-color: #1f1e1e;
     color: #fff;
-    header{
+
+    header {
         background-color: #000;
         display: flex;
         padding: 4vh 4vw;
@@ -12,17 +13,17 @@
         justify-content: space-between;
         height: 20vh;
 
-        img{
+        img {
             width: 5vw;
         }
 
-        .links{
+        .links {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
             gap: 0vh 5vw;
 
-            a{
+            a {
                 color: #fff;
                 text-decoration: none;
                 font: 500 1.3rem 'valhalla';
@@ -31,53 +32,59 @@
         }
     }
 
-    .secao-inicial{
+    .secao-inicial {
         display: flex;
         flex-direction: row;
         align-items: center;
-        height: 80vh; 
+        height: 80vh;
         justify-content: space-between;
         padding: 0vh 10vw;
-        .text{
+
+        .text {
             display: flex;
             flex-direction: column;
             width: 35vw;
             gap: 2vh 0vw;
             justify-content: center;
-            h3{
+
+            h3 {
                 font: 500 1rem 'valhalla';
             }
-            h1{
+
+            h1 {
                 font: 700 2.5rem 'valhalla';
             }
         }
-        p{
+
+        p {
             font: 500 1.3rem 'valhalla';
             width: 29vw;
         }
     }
 
-    .secao-dois{
+    .secao-dois {
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 130vh;
 
-        .back{
-            background-image: url('../../../public/assets/images/exporar.png') ;
+        .back {
+            background-image: url('../../../public/assets/images/exporar.png');
             background-repeat: no-repeat;
             background-size: 100%;
-            img{
+
+            img {
                 width: 75vw;
                 padding: 15vh 5vw !important;
             }
         }
-        h1{
+
+        h1 {
             font: 500 2rem 'valhalla';
             margin-right: 63vw;
             padding: 2vh 0vw;
         }
-        
+
         .line {
             background-color: #fff;
             width: 90vw;
@@ -86,7 +93,8 @@
         }
 
     }
-    .secao-tres{
+
+    .secao-tres {
         background-color: #000;
         display: flex;
         flex-direction: row;
@@ -95,20 +103,22 @@
         align-items: center;
         justify-content: space-between;
 
-        h1{
+        h1 {
             font: 700 3rem 'valhalla';
             width: 20vw;
         }
 
-        .quadrados{
+        .quadrados {
             display: flex;
             flex-direction: column;
             gap: 5vh 0vw;
-            .lado{
+
+            .lado {
                 display: flex;
                 flex-direction: row;
                 gap: 0vh 3vw;
-                .cubo{
+
+                .cubo {
                     background-image: url('../../../public/assets/images/cubo.png');
                     background-repeat: no-repeat;
                     background-size: 100%;
@@ -118,7 +128,7 @@
                     display: flex;
                     height: 45vh;
 
-                    p{
+                    p {
                         color: #000;
                         font: 700 1.4rem 'valhalla';
                         width: 12vw;
@@ -128,7 +138,10 @@
 
         }
     }
-    .secao-4, .secao-5, .secao-6{
+
+    .secao-4,
+    .secao-5,
+    .secao-6 {
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -137,33 +150,41 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        h1{
+
+        h1 {
             font: 700 3rem 'valhalla';
         }
-        p{
+
+        p {
             font: 500 2rem 'valhalla';
             text-align: center;
             width: 50vw;
         }
 
     }
-    .secao-4{
+
+    .secao-4 {
         background-image: url('../../../public/assets/images/background-1.png');
-        
+
     }
-    .secao-5{
+
+    .secao-5 {
         background-image: url('../../../public/assets/images/background-2.png');
-        h1{
+
+        h1 {
             color: #000;
         }
-        p{
+
+        p {
             color: #000;
         }
     }
-    .secao-6{
+
+    .secao-6 {
         background-image: url('../../../public/assets/images/background-3.png');
     }
-    .secao-7{
+
+    .secao-7 {
         background-image: url('../../../public/assets/images/background-5.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -173,41 +194,48 @@
         align-items: center;
         justify-content: center;
         gap: 4vh 0vw;
-        h1{
+
+        h1 {
             color: #000;
             font: 500 3rem 'valhalla';
             text-align: center;
             width: 70vw;
         }
-        button{
-            border-radius: 30px;
-            background-color: #000;
-            color: #fff;
-            font: 500 1.5rem 'valhalla';
-            border: none;
-            padding: 2vh 2vw;
-            width: 20vw;
-            height: 7vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+
+        a {
+            text-decoration: none;
+            button {
+                border-radius: 30px;
+                background-color: #000;
+                color: #fff;
+                font: 500 1.5rem 'valhalla';
+                border: none;
+                padding: 2vh 2vw;
+                width: 20vw;
+                height: 7vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
     }
-    .secao-8{
+
+    .secao-8 {
         background-color: #000;
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 5vh 5vw;
 
-        h1{
+        h1 {
             font: 700 3rem 'valhalla';
             padding: 4vh 0vw;
-            margin-left: 5vw;      
+            margin-left: 5vw;
         }
 
     }
-    .rodape{
+
+    .rodape {
         display: flex;
         flex-direction: row;
         background-color: #000;
@@ -215,346 +243,444 @@
         height: 70vh;
         justify-content: space-evenly;
 
-        .coluna{
+        .coluna {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             gap: 4vh 0vw;
-            p{
+
+            p {
                 font: 500 1.5rem 'valhalla';
-                width: 30vw;        
+                width: 30vw;
                 text-align: center;
             }
         }
-        .coluna-2{
+
+        .coluna-2 {
             display: flex;
             flex-direction: column;
             gap: 2vh 0vw;
-            h1{
+
+            h1 {
                 font: 700 2rem 'valhalla';
             }
-            div{
+
+            div {
                 display: flex;
                 align-items: center;
                 gap: 0vh 2vw;
-                a{
+
+                a {
                     color: #fff;
                     text-decoration: none;
                     font: 500 1.5rem 'valhalla';
                 }
-                img{
+
+                img {
                     width: 2vw;
                 }
             }
         }
-        
-    }
-}
-@media (max-width:1440px) {
-    .landing{
-    .secao-dois{
-        height: 120vh;
-        .back{
-            img{
-                padding: 8vh 4vw;
-            }
-        }
-    }
-    .secao-tres{
-        height: 120vh;
-        .quadrados{
-            .lado{
-                .cubo{
-                    height: 45vh;
-                    p{
-                        font-size: 1.3rem;
-                  
-                    }
-                }
-            }
-        }
-    }
-    .secao-4, .secao-5,.secao-6, .secao-7{
-        height: 110vh;
-    }
-    }
- }
-@media (max-width:1280px) {
-   .landing{
-    .secao-dois{
-        height: 106vh;
-        .back{
-            img{
-                padding: 10vh 4vw !important;
-            }
-        }
-    }
-    .secao-tres{
-        height: 110vh;
-        h1{
-            font-size: 2.5rem;
-        }
-        .quadrados{
-            gap: 3vh 0vw;
-            .lado{
-                .cubo{
-                    height: 35vh;
-                    p{
-                        font-size: 1.3rem;
-                    }
-                    
-                }
-            }
-        }
-    }
-    .secao-4, .secao-5,.secao-6, .secao-7{
-        height: 75vh;
-    }
-    .secao-4{
-        background-image: url('../../../public/assets/images/secao-1-1280.png');
-    }
-    .secao-5{
-        background-image: url('../../../public/assets/images/secao-2-1280.png');
-    }
-    .secao-6{
-        background-image: url('../../../public/assets/images/secao-3-1280.png');
-    }
 
-   }
+    }
 }
+
+@media (max-width:1440px) {
+    .landing {
+        .secao-dois {
+            height: 120vh;
+
+            .back {
+                img {
+                    padding: 8vh 4vw;
+                }
+            }
+        }
+
+        .secao-tres {
+            height: 120vh;
+
+            .quadrados {
+                .lado {
+                    .cubo {
+                        height: 45vh;
+
+                        p {
+                            font-size: 1.3rem;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .secao-4,
+        .secao-5,
+        .secao-6,
+        .secao-7 {
+            height: 110vh;
+        }
+    }
+}
+
+@media (max-width:1280px) {
+    .landing {
+        .secao-dois {
+            height: 106vh;
+
+            .back {
+                img {
+                    padding: 10vh 4vw !important;
+                }
+            }
+        }
+
+        .secao-tres {
+            height: 110vh;
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .quadrados {
+                gap: 3vh 0vw;
+
+                .lado {
+                    .cubo {
+                        height: 35vh;
+
+                        p {
+                            font-size: 1.3rem;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .secao-4,
+        .secao-5,
+        .secao-6,
+        .secao-7 {
+            height: 75vh;
+        }
+
+        .secao-4 {
+            background-image: url('../../../public/assets/images/secao-1-1280.png');
+        }
+
+        .secao-5 {
+            background-image: url('../../../public/assets/images/secao-2-1280.png');
+        }
+
+        .secao-6 {
+            background-image: url('../../../public/assets/images/secao-3-1280.png');
+        }
+
+    }
+}
+
 @media (max-width:912px) {
-    .landing{
-        header{
+    .landing {
+        header {
             height: 15vh;
 
-            .links{
-                a{
+            .links {
+                a {
                     font-size: 1rem;
                 }
             }
         }
-        .secao-inicial{
-            height: 75vh; 
+
+        .secao-inicial {
+            height: 75vh;
             padding: 0vh 8vw;
-            .text{
+
+            .text {
                 width: 35vw;
                 gap: 2vh 0vw;
-                h3{
+
+                h3 {
                     font-size: 0.8rem;
                 }
-                h1{
+
+                h1 {
                     font-size: 2rem;
                 }
             }
-            p{
+
+            p {
                 font-size: 1.1rem;
             }
         }
-        .secao-dois{
+
+        .secao-dois {
             height: 90vh;
         }
-        .secao-tres{
+
+        .secao-tres {
             height: 90vh;
-            h1{
+
+            h1 {
                 font-size: 2.1rem;
             }
-            .quadrados{
+
+            .quadrados {
                 gap: 2.5vh 0vw;
-                .lado{
-                    .cubo{
+
+                .lado {
+                    .cubo {
                         height: 35vh;
-                        p{
+
+                        p {
                             font-size: 1rem;
                             width: 13vw;
                         }
                     }
                 }
-            }    
+            }
         }
-        .secao-4, .secao-5,.secao-6, .secao-7{
+
+        .secao-4,
+        .secao-5,
+        .secao-6,
+        .secao-7 {
             height: 70vh;
-            h1{
+
+            h1 {
                 font-size: 2.5rem;
             }
-            p{
+
+            p {
                 font-size: 1.5rem;
             }
         }
-        .rodape{
-            .coluna{
-                p{
+
+        .rodape {
+            .coluna {
+                p {
                     font-size: 1.2rem;
                 }
             }
         }
     }
 }
-@media(max-width:768px){
-    .landing{
-        .secao-inicial{
-            height: 70vh; 
-            .text{
+
+@media(max-width:768px) {
+    .landing {
+        .secao-inicial {
+            height: 70vh;
+
+            .text {
                 width: 35vw;
                 gap: 1.8vh 0vw;
-                h3{
+
+                h3 {
                     font-size: 0.7rem;
                 }
-                h1{
+
+                h1 {
                     font-size: 1.5rem;
                 }
             }
-            p{
+
+            p {
                 font-size: 0.8rem;
             }
         }
-        .secao-dois{
+
+        .secao-dois {
             height: 72vh;
-            .back{
-                img{
+
+            .back {
+                img {
                     padding: 8vh 4vw !important;
                 }
             }
         }
-        .secao-tres{
+
+        .secao-tres {
             height: 75vh;
-            h1{
+
+            h1 {
                 font-size: 1.5rem;
             }
-            .quadrados{
+
+            .quadrados {
                 gap: 2vh 0vw;
-                .lado{
-                    .cubo{
+
+                .lado {
+                    .cubo {
                         height: 30vh;
-                        p{
+
+                        p {
                             font-size: 0.8rem;
                         }
                     }
                 }
-            }    
+            }
         }
-        .secao-8{
-            h1{
+
+        .secao-8 {
+            h1 {
                 font-size: 1.5rem;
             }
         }
-        .secao-4, .secao-5,.secao-6, .secao-7{
+
+        .secao-4,
+        .secao-5,
+        .secao-6,
+        .secao-7 {
             height: 65vh;
-            h1{
+
+            h1 {
                 font-size: 2.2rem;
             }
-            p{
+
+            p {
                 font-size: 1.2rem;
             }
         }
-        .rodape{
-            .coluna{
-                p{
+
+        .rodape {
+            .coluna {
+                p {
                     font-size: 1rem;
                 }
             }
-            .coluna-2{
-                h1{
+
+            .coluna-2 {
+                h1 {
                     font-size: 1.2rem;
                 }
             }
         }
     }
 }
-@media(max-width:660px){
-    .landing{
-         .secao-4, .secao-5,.secao-6, .secao-7{
+
+@media(max-width:660px) {
+    .landing {
+
+        .secao-4,
+        .secao-5,
+        .secao-6,
+        .secao-7 {
             height: 55vh;
         }
-        .secao-tres{
-            h1{
+
+        .secao-tres {
+            h1 {
                 font-size: 1.5rem;
             }
-            .quadrados{
-                .lado{
-                    .cubo{
+
+            .quadrados {
+                .lado {
+                    .cubo {
                         height: 28vh;
-                        p{
+
+                        p {
                             font-size: 0.7rem;
                         }
                     }
                 }
-            }    
+            }
         }
     }
 }
+
 @media (max-width:540px) {
-    .landing{
-        .secao-inicial{
-            height: 50vh; 
-            .text{
+    .landing {
+        .secao-inicial {
+            height: 50vh;
+
+            .text {
                 gap: 1.5vh 0vw;
-                h3{
+
+                h3 {
                     font-size: 0.6rem;
                 }
-                h1{
+
+                h1 {
                     font-size: 1.2rem;
                 }
             }
-            p{
+
+            p {
                 font-size: 0.6rem;
                 width: 25vw;
             }
         }
-        .secao-dois{
+
+        .secao-dois {
             height: 60vh;
-            .back{
-                img{
+
+            .back {
+                img {
                     width: 70vw;
                     padding: 5vh 3vw !important;
                 }
             }
         }
-        .secao-tres{
-            h1{
+
+        .secao-tres {
+            h1 {
                 font-size: 1.2rem;
             }
-            .quadrados{
-             
-                .lado{
-                    
-                    .cubo{
+
+            .quadrados {
+
+                .lado {
+
+                    .cubo {
                         height: 22vh;
-                        p{
+
+                        p {
                             font-size: 0.7rem;
                         }
                     }
                 }
-            }    
+            }
         }
-        .secao-4, .secao-5,.secao-6, .secao-7{
+
+        .secao-4,
+        .secao-5,
+        .secao-6,
+        .secao-7 {
             height: 45vh;
-            h1{
+
+            h1 {
                 font-size: 1.5rem;
             }
-            p{
+
+            p {
                 font-size: 0.8rem;
             }
-            button{
-                font-size: 1rem;
-            }
-        }
-    
-    }
-}
 
-@media (max-width:490px) {
-    .landing{
-        header{
-            height: 10vh;
-            .links{
-                a{
+            a {
+                button {
                     font-size: 1rem;
                 }
             }
         }
-        .secao-inicial{
-            height: 45vh; 
+
+    }
+}
+
+@media (max-width:490px) {
+    .landing {
+        header {
+            height: 10vh;
+
+            .links {
+                a {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .secao-inicial {
+            height: 45vh;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
@@ -562,109 +688,139 @@
             padding: 0vh 5vw;
             gap: 1vh 0vw;
 
-            .text{
+            .text {
                 gap: 1vh 0vw;
-                h3{
+
+                h3 {
                     font-size: 1rem;
                     width: 80vw;
                 }
-                h1{
+
+                h1 {
                     font-size: 1.5rem;
                     width: 80vw;
                 }
             }
-            p{
+
+            p {
                 font-size: 1rem;
                 width: 80vw;
             }
         }
-        .secao-dois{
+
+        .secao-dois {
             height: 50vh;
-            .back{
-                img{
+
+            .back {
+                img {
                     width: 90vw;
                     padding: 3vh 4vw !important;
                 }
             }
-            h1{
+
+            h1 {
                 font-size: 1.5rem;
             }
         }
-        .secao-tres{
+
+        .secao-tres {
             height: 70vh;
             display: flex;
             flex-direction: column;
-            h1{
+
+            h1 {
                 font-size: 1.5rem;
                 width: 80vw;
                 text-align: center;
             }
-            .quadrados{
+
+            .quadrados {
                 gap: 1vh 0vw !important;
-                .lado{
-                    .cubo{
+
+                .lado {
+                    .cubo {
                         height: 20vh;
                         padding: 0vh vw;
-                        p{
+
+                        p {
                             font-size: 0.8rem;
                             width: 28vw;
                         }
                     }
                 }
-            }    
+            }
         }
-        .secao-4, .secao-5,.secao-6, .secao-7{
+
+        .secao-4,
+        .secao-5,
+        .secao-6,
+        .secao-7 {
             height: 26vh;
             gap: 1vh 0vw;
-            h1{
+
+            h1 {
                 font-size: 1.5rem;
-            } 
-            p{
+            }
+
+            p {
                 font-size: 1rem;
                 width: 60vw;
             }
-            button{
-                width: 30vw;
-                height: 6vh;
-                font-size: 1rem;
+
+            a {
+                button {
+                    width: 30vw;
+                    height: 6vh;
+                    font-size: 1rem;
+                }
             }
         }
-        .secao-8{
+
+        .secao-8 {
             padding: 2vh 5vw;
         }
-        .rodape{
+
+        .rodape {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 55vh;
             padding: 1vw 5vw;
-            .coluna{
+
+            .coluna {
                 height: 30vh;
-                img{
+
+                img {
                     width: 25vw;
                 }
-                p{
+
+                p {
                     font-size: 1rem;
                     width: 70vw;
                 }
             }
-            .coluna-2{
+
+            .coluna-2 {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                h1{
+
+                h1 {
                     font-size: 1.8rem;
                 }
-                div{
-                    a{
-                        font-size:  1rem !important;
-                     }
+
+                div {
+                    a {
+                        font-size: 1rem !important;
+                    }
                 }
-                a{
-                   font-size:  1.5rem !important;
+
+                a {
+                    font-size: 1.5rem !important;
                 }
-                img{
+
+                img {
                     width: 5vw !important;
                 }
             }
@@ -674,16 +830,115 @@
 }
 
 @media (max-width:375px) {
-    .landing{
-        .secao-4, .secao-5,.secao-6, .secao-7{
+    .landing {
+
+        .secao-4,
+        .secao-5,
+        .secao-6,
+        .secao-7 {
             height: 22vh;
-            h1{
+
+            h1 {
                 font-size: 1.2rem;
-            } 
-            p{
+            }
+
+            p {
                 font-size: 0.8rem;
             }
-           
+
         }
+    }
+}
+
+@media (max-width:325px) {
+    .landing {
+
+        .secao-inicial {
+            height: 60vh;
+
+
+            .text {
+                gap: 1vh 0vw;
+
+                h3 {
+                    font-size: 0.8rem;
+                    width: 80vw;
+                }
+
+                h1 {
+                    font-size: 1rem;
+                    width: 80vw;
+                }
+            }
+
+            p {
+                font-size: 0.8rem;
+                width: 80vw;
+            }
+        }
+
+
+        .secao-4,
+        .secao-5,
+        .secao-6,
+        .secao-7 {
+            height: 26vh;
+            gap: 1vh 0vw;
+
+            h1 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: 0.8rem;
+                width: 60vw;
+            }
+
+        }
+
+        .secao-8 {
+            padding: 2vh 5vw;
+        }
+
+        .rodape {
+
+            .coluna {
+                height: 30vh;
+
+                img {
+                    width: 25vw;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                    width: 70vw;
+                }
+            }
+
+            .coluna-2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h1 {
+                    font-size: 1.5rem;
+                }
+
+                div {
+                    a {
+                        font-size: 1rem !important;
+                    }
+                }
+
+                a {
+                    font-size: 1.5rem !important;
+                }
+
+                img {
+                    width: 5vw !important;
+                }
+            }
+        }
+
     }
 }

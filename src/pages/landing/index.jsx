@@ -77,7 +77,9 @@ export default function LandingPage() {
 
       <div className='secao-7'>
        <h1>Faça como milhões de pessoas e transforme sua ideia em realidade com a Valhalla</h1>
+       <Link to={'https://www.instagram.com/valhalla_s2/profilecard/?igsh=d2FvdTgydDlqMXk1'}>
        <button>Começar</button>
+       </Link>
       </div>
       <div className='secao-8'>
         <h1>FAQ</h1>
@@ -93,10 +95,7 @@ export default function LandingPage() {
           <div className='coluna-2'>
             <h1>Redes sociais</h1>
             <div>
-              <img src="/assets/images/insta.png" alt="insta" /><Link>Instagram</Link>
-            </div>
-            <div>
-              <img src="/assets/images/face.png" alt="face" /><Link>Facebook</Link>
+              <img src="/assets/images/insta.png" alt="insta" /><Link to={'https://www.instagram.com/valhalla_s2/profilecard/?igsh=d2FvdTgydDlqMXk1'}>Instagram</Link>
             </div>
           </div>
         </div>
